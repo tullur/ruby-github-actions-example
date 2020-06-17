@@ -10,5 +10,6 @@ gem 'sinatra', '~> 2.0', '>= 2.0.8.1'
 # Slim is a template language whose goal is reduce the syntax to the essential parts without becoming cryptic.
 gem 'slim', '~> 4.1'
 
-# RuboCop is a Ruby code style checking and code formatting tool. It aims to enforce the community-driven Ruby Style Guide.
+# RuboCop is a Ruby code style checking and code formatting tool.
+# It aims to enforce the community-driven Ruby Style Guide.
 gem 'rubocop', '~> 0.85.1'
