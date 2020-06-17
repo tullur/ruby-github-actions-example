@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+
+# Sinatra is a DSL for quickly creating web applications in Ruby with minimal effort.
+gem 'sinatra', '~> 2.0', '>= 2.0.8.1'
+
+# Slim is a template language whose goal is reduce the syntax to the essential parts without becoming cryptic.
+gem 'slim', '~> 4.1'
