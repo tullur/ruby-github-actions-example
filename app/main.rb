@@ -11,4 +11,8 @@ get '/about' do
   slim :about
 end
 
+get '/faq' do
+  slim :faq
+end
+
 set :port, 3000
