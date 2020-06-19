@@ -15,4 +15,8 @@ get '/faq' do
   slim :faq
 end
 
+get '/test' do
+  slim :test
+end
+
 set :port, 3000
